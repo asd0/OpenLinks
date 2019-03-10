@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Open Links",
+	"version": "1",
+	"description": "Open Links From Clipboard",
+	"browser_action": {
+		"default_title": "Open Links"
+	},
+	"background": {
+		"scripts": [
+			"js/background/background.js"
+		],
+		"persistent": false
+	},
+	"permissions": [
+		"clipboardRead"
+	]
+}
